@@ -1,0 +1,39 @@
+.list-sm {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0
+}
+
+.list-sm li {
+    padding: 10px;
+    color: cyan;
+    font-size: 19px
+}
+
+* {box-sizing:border-box}
+
+.slide {
+  max-width: 10px;
+  position: relative;
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+    border-radius: 10px;
+    width:700px;
+    height:400px;
+}
+
+/* Animasi fade */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
